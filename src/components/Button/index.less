@@ -1,0 +1,92 @@
+// @prefix: nice-btn;
+.nice-btn {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #f0ffff;
+  text-align: center;
+  border: solid 1px #f9f9f9;
+  border-radius: 6px;
+  font-family: "iconfont";
+  &-primary {
+    background-color: #00aeff;
+  }
+  &-success {
+    background-color: #67c23a;
+  }
+  &-warning {
+    background-color: #e6a23c;
+  }
+  &-danger{
+    background-color: #f65c6c;;
+  }
+  &-info{
+    background-color: #909399;;
+  }
+  &-default {
+    min-width: 32px;
+    height: 25px;
+  }
+  &-small {
+    width: 48px;
+    height: 21px;
+    font-size: 0.5rem;
+  }
+  &-large {
+    width: 85px;
+    height: 37px;
+    font-size: 1.1rem;
+  }
+
+  &-disabled {
+    background-color: #a8aaab;
+    color: #636363;
+    cursor: not-allowed;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &-circle {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    font-size: 8px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+  }
+  &-icon {
+    margin-left: 3px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 2796115 */
+  src: url('iconfont.woff2?t=1631071893733') format('woff2'),
+       url('iconfont.woff?t=1631071893733') format('woff'),
+       url('iconfont.ttf?t=1631071893733') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-like:before {
+  content: "\e63b";
+}
+
+.icon-search:before {
+  content: "\e86e";
+}
+
+.icon-unfold:before {
+  content: "\eb89";
+}
+
+.icon-comment:before {
+  content: "\e667";
+}
+

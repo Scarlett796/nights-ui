@@ -1,0 +1,4 @@
+.eslintrc.js
+global.d.ts
+node_modules
+src/**/*.html
